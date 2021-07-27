@@ -3,29 +3,41 @@
   padding: 0;
 }
 
-html,
 body {
-  height: 100vh;
+  height: 500vh;
   font-family: "Poppins";
-  background: rgb(25, 25, 25);
+  font-size: 1em;
+  background: rgb(9, 15, 34);
 }
 
 .webgl {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   outline: none;
 }
 
-.container {
-  height: 100vh;
-  display: grid;
-  place-items: center;
+#button {
+  background: rgb(185, 165, 185);
+  position: absolute;
+  top: 200pt;
+  left: 200pt;
 }
-h1 {
-  font-size: 8rem;
-  text-transform: uppercase;
-  color: black;
+
+#threejs {
+  height: 50vh;
+  background: rgb(250, 209, 250);
+}
+
+#intro {
+  height: 50vh;
+  background: rgb(255, 255, 255);
+}
+
+#side {
+  width: 60vh;
+  height: 50vh;
+  background: rgb(190, 231, 238);
 }
 
 
